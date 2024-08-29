@@ -1,0 +1,78 @@
+
+/* phần xóa đc */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.teams{
+    background: linear-gradient(180deg, rgba(2, 140, 222, 0.3) 0%, rgba(2, 140, 222, 0.06) 25.03%, rgba(2, 140, 222, 0.03) 49.95%, rgba(2, 140, 222, 0.06) 74.02%, rgba(2, 140, 222, 0.3) 100%);
+
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.teams-button-schedule{
+    background: var(--CTA, #FF8133);
+    color:white;
+}
+.teams-button-schedule{
+    border: 1px solid #FF8133;
+    transition:all .7s ease;
+}
+.teams-button-schedule:hover{
+    background:white;
+    color:#FF8133;
+    border: 1px solid #FF8133;
+    transition: all .7s ease;
+}
+.teams-button-more{
+    border: 1px solid #044AA0;
+    transition:all .7s ease;
+}
+.teams-button-more:hover{
+    background:white;
+    color:#044AA0;
+    border: 1px solid #044AA0;
+    transition: all .7s ease;
+}
+.swiper-dat-3d-1 .swiper-slide {
+    transition: opacity 0.3s ease;
+  }
+  
+  .swiper-dat-3d-1 .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.5; /* Điều chỉnh giá trị opacity theo ý muốn */
+  }
+  
+  .swiper-dat-3d-1 .swiper-slide-active {
+    opacity: 1;
+  }
